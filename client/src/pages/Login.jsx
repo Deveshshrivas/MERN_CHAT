@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { TextField, Container, Paper, Typography, Button, Stack, Avatar } from '@mui/material';
+import { TextField, Container, Paper, Typography, Button, Stack, Avatar, IconButton } from '@mui/material';
+import CameraAltIcon from '@mui/icons-material/CameraAlt';
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -48,6 +49,11 @@ const Login = () => {
                   objectFit: "contain"
                 }}
                 />
+
+                <IconButton>
+                  <CameraAltIcon />
+                </IconButton>
+
               </Stack>
               <TextField required fullWidth label='Name' margin='normal' variant='outlined' />
               <TextField required fullWidth label='UserName' margin='normal' variant='outlined' />
