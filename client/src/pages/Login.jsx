@@ -52,6 +52,7 @@ const Login = () => {
 
                 <IconButton>
                   <CameraAltIcon />
+                  <VisuallyHidden>Upload Avatar</VisuallyHidden>
                 </IconButton>
 
               </Stack>
